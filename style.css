@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Poppins, "sans-serif";
-    -webkit-text-stroke: 1px #fff
+    -webkit-text-stroke: 1px #fff;
     
 }
 body {
@@ -24,21 +24,14 @@ body {
 }
 .logo{
     margin-left: 4%;
-    -webkit-animation: spin 4s linear infinite;
-    animation: spin 4s linear infinite;
+    animation: rotate 4s linear infinite;
   }
   
-  @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
-  }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+  @keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
 
   }
-
 
 nav {
     display: flex;
@@ -78,7 +71,7 @@ li:hover {
     font-size: 77px;
     letter-spacing: 3px;
     word-spacing: 6px;
-    text-shadow: 0px 0px 10px rgb(233, 224, 224);
+    text-shadow: 1px 1px 10px rgb(233, 224, 224);
 }
 
 p{
@@ -86,7 +79,7 @@ p{
     font-size: 20px;
     margin-right: 380px;
     text-align: center;
-    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+    text-shadow: 1px 1px 10px rgb(255, 255, 255);
     word-spacing: 2px;
 }
 
@@ -98,14 +91,15 @@ p{
     background-color: rgba(0, 183, 255, 0.4);  
     color:#FFFFFF;  
     text-align :center; 
-    width:20vw; 
+    width:270px; 
     padding-top: 18px;
-    height: 10vh;
+    height: 70px;
     margin:30px 400px;   
 }
 
 .submit:hover {
     background-color: rgba(8, 145, 236, 0.8);
+    transform: translateY(2px);
 }
 
 .model img {
@@ -120,5 +114,10 @@ p{
     bottom: 1px;
     margin-left: 300px;
     
+}
+footer {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 61px 0px 0px 350px;
 }
 
