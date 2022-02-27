@@ -7,7 +7,6 @@
     
 }
 body {
-    
     background-image: url("/background.jpg");
     color: white;
 }
@@ -71,15 +70,15 @@ li:hover {
     font-size: 77px;
     letter-spacing: 3px;
     word-spacing: 6px;
-    text-shadow: 1px 1px 10px rgb(233, 224, 224);
+    text-shadow: 1px 1px 8px rgb(233, 224, 224);
 }
 
 p{
     margin: 16px;
-    font-size: 20px;
+    font-size: 23px;
     margin-right: 380px;
     text-align: center;
-    text-shadow: 1px 1px 10px rgb(255, 255, 255);
+    text-shadow: 1px 1px 7px rgb(255, 255, 255);
     word-spacing: 2px;
 }
 
@@ -91,10 +90,10 @@ p{
     background-color: rgba(0, 183, 255, 0.4);  
     color:#FFFFFF;  
     text-align :center; 
-    width:270px; 
+    width:290px; 
     padding-top: 18px;
     height: 70px;
-    margin:30px 400px;   
+    margin:30px 400px;
 }
 
 .submit:hover {
@@ -115,9 +114,11 @@ p{
     margin-left: 300px;
     
 }
+
 footer {
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin: 61px 0px 0px 350px;
+    text-align: center;
+    margin-top: 90px;
 }
 
